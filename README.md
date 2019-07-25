@@ -8,6 +8,7 @@ This Repository adds Type safety and autocompletion to the RoyalRender NodeJS Ad
  *  There is Currently only rrBindings support for Node version 6.xx.x (Node 6.17.1 was the last Node 6 release)
  *  For Linux you have to first mount your RoyalRender Server to a local folder before trying to install rrBindings.
  *  For Windows you do not have to escape the backslash when using `npm install`
+ *  Do not `npm install` rrBindings with the `--save` flag. This will probably lead to errors when using `npm install` again (at least on Windows when node saves an UNC path in the package.json as a dependency)
  *  In the folder `[RR]/bin/lx64/lib/` you have to rename the `*.node.1.0.0` file to `libNodeJs6_RR.node`
  *  In the folder `[RR]/bin/win64/` you have to rename the `*.node` file to `NodeJs6_RR.node`
  
