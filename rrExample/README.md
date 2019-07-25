@@ -1,4 +1,5 @@
 # Example Project
+This example project should help you to bootstrap a new NodeJS - Royal Render project.
 
 ## Usage
 After setting up rrBindings as described in the rrBindings root repo, do the following steps to get started with this example project:
