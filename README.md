@@ -4,7 +4,8 @@
 ## dev
 
 If you want to develop this project a bit further, make sure that you have this Folder Structure with exactly those files which you can get from [RR]/bin/<OS>/
-
+    
+```
 rrBindings/
     └─── lx64/
     │     └─── lib/
@@ -35,4 +36,5 @@ rrBindings/
        │─── tsconfig.json
        └─── src
              └─── index.ts
+```
 
