@@ -3,7 +3,7 @@
 
 ## dev
 
-If you want to develop this project a bit further, make sure that you have this Folder Structure with exactly those files which you can get from [RR]/bin/<OS>/
+If you want to develop this project a bit further, make sure that you have this Folder Structure with exactly those files (you have to configure rrBindings/lx64 and rrBindings/win64 manually) which you can get from [RR]/bin/<OS>/
     
 ```
 rrBindings/
