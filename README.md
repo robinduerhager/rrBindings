@@ -10,17 +10,16 @@ This Repository adds Type safety and autocompletion to the RoyalRender NodeJS Ad
  *  For Windows you do not have to escape the backslash when using `npm install`
  *  In the folder `[RR]/bin/lx64/lib/` you have to rename the `.node.1.0.0` file to `libNodeJs6_RR.node`
  *  In the folder `[RR]/bin/win64/` you have to rename the `.node` file to `NodeJs6_RR.node`
-
-1. 
-3. Download this repo
-4. Place the `package.json` file from `[REPO]/lx64/lib` into `[RR]/bin/lx64/lib/`
-5. Place the `package.json` file from `[REPO]/win64/` into `[RR]/bin/win64/`
-6. Copy the `nodeJS/` folder from `[REPO]/` into `[RR]/bin/`
-7. Copy the example project from `[REPO]/` into the destination you want.
-8. `cd` into the example project.
-9. Run `npm install`
-10. Run`npm install [RR]/bin/nodeJS/<OS YOU USE>/<NODE VERSION YOU USE>`
-11. Run `npm start`
+ 
+1. Download this repo
+2. Place the `package.json` file from `[REPO]/lx64/lib` into `[RR]/bin/lx64/lib/`
+3. Place the `package.json` file from `[REPO]/win64/` into `[RR]/bin/win64/`
+4. Copy the `nodeJS/` folder from `[REPO]/` into `[RR]/bin/`
+5. Copy the example project from `[REPO]/` into the destination you want.
+6. `cd` into the example project.
+7. Run `npm install`
+8. Run`npm install [RR]/bin/nodeJS/<OS YOU USE>/<NODE VERSION YOU USE>`
+9. Run `npm start`
 
 ## development
 
