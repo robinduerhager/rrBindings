@@ -2,7 +2,7 @@
 
 This Repository adds Type safety and autocompletion to the RoyalRender NodeJS Addon.
 
-## usage
+## Usage
 
 ### IMPORTANT
  *  There is Currently only rrBindings support for Node version 6.xx.x (Node 6.17.1 was the last Node 6 release)
@@ -11,6 +11,7 @@ This Repository adds Type safety and autocompletion to the RoyalRender NodeJS Ad
  *  In the folder `[RR]/bin/lx64/lib/` you have to rename the `.node.1.0.0` file to `libNodeJs6_RR.node`
  *  In the folder `[RR]/bin/win64/` you have to rename the `.node` file to `NodeJs6_RR.node`
  
+### Steps to get started
 1. Download this repo
 2. Place the `package.json` file from `[REPO]/lx64/lib` into `[RR]/bin/lx64/lib/`
 3. Place the `package.json` file from `[REPO]/win64/` into `[RR]/bin/win64/`
@@ -21,7 +22,7 @@ This Repository adds Type safety and autocompletion to the RoyalRender NodeJS Ad
 8. Run`npm install [RR]/bin/nodeJS/<OS YOU USE>/<NODE VERSION YOU USE>`
 9. Run `npm start`
 
-## development
+## Development
 
 If you want to develop this project a bit further, make sure that you have this Folder Structure with exactly those files (you have to configure rrBindings/lx64 and rrBindings/win64 manually) which you can get from [RR]/bin/<OS>/
     
