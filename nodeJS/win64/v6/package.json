@@ -8,11 +8,13 @@
   "scripts": {
     "start": "backpack",
     "build": "rm -rf ./lib/* && backpack build",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "gen:docs": "rm -rf ./docs && typedoc --mode file --includeDeclarations --excludeExternals --out docs/html --name rrBindingsDocs --readme none && typedoc --theme markdown --mode file --includeDeclarations --excludeExternals --out docs/md --name rrBindingsDocs --readme none"
   },
   "files": [
     "lib/",
-    "*.d.ts"
+    "*.d.ts",
+    "docs/"
   ],
   "repository": {
     "type": "git",
@@ -37,6 +39,8 @@
     "awesome-typescript-loader": "^5.2.1",
     "backpack-core": "^0.8.3",
     "node-loader": "^0.6.0",
+    "typedoc": "^0.15.0",
+    "typedoc-plugin-markdown": "^2.1.10",
     "typescript": "^3.4.5"
   },
   "dependencies": {
