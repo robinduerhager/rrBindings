@@ -23,6 +23,11 @@ This Repository adds Type safety and autocompletion to the RoyalRender NodeJS Ad
 8. Run`npm install [RR]/bin/nodeJS/<OS YOU USE>/<NODE VERSION YOU USE>`
 9. Run `npm start`
 
+### Documentation
+For each version of rrTypings, you can find a markdown and a html documentation in the `nodeJS/<OS>/<NODE VERSION YOU USE>/docs` folder.
+The Markdown version is directly accessible from this git repository: [Example for win64-v6-docs](nodeJS/win64/v6/docs/md/README.md).
+It is pretty handy if you don't know exactly which methods are actually available from the rrBindings.
+
 ## Development
 
 If you want to develop this project a bit further, make sure that you have this Folder Structure with exactly those files (you have to configure rrBindings/lx64 and rrBindings/win64 manually) which you can get from [RR]/bin/<OS>/
@@ -59,4 +64,5 @@ rrBindings/
        └─── src
              └─── index.ts
 ```
-
+## Contribution
+If you find a bug, something is missing or you know a better way to implement rrBindings, feel free to submit any Pull Requests or issues.
