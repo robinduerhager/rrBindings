@@ -1,7 +1,7 @@
 {
   "name": "rrbindings",
   "version": "1.0.0",
-  "description": "Bindings for the powerfull Royal Render Renderfarm",
+  "description": "Bindings for the powerful Royal Render Renderfarm",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "private": true,
