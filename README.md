@@ -1,3 +1,5 @@
+⚠️ **This Repository has been archived since Royal Render dropped NodeJS Support with Royal Render 9** ⚠️
+
 # rrBindings
 
 This Repository adds Type safety and autocompletion to the RoyalRender NodeJS Addon.
